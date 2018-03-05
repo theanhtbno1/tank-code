@@ -1,0 +1,404 @@
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <STYLE>
+  body {
+    position: relative;
+  }
+  .img-responsive {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  .img-responsive:hover{
+    opacity: 0.6;
+  }
+  a:link { 
+    color:black;
+    text-decoration:none;
+  }
+
+  a:visited {
+    color:black;
+    text-decoration:none;
+  }
+
+  a:hover {
+    color:#b1b2b5;
+    text-decoration:none;
+  }
+  .topbar{
+   background-color: black;
+   color:white;
+   height: 30px;
+   width: 100%;
+   line-height: 30px;
+   text-align: center;  
+ }
+ .affix{
+  top: 0;
+  width: 100%;
+  z-index: 9999 !important;
+}
+
+.mainmenu{
+  background-color: white;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+  height: 1200px;
+  width: 100%;
+}
+.logo{
+ width: 300px;
+ height: 60px;
+ position: center;
+ background-color: red; 
+}      
+
+</STYLE>
+</HEAD>
+<BODY>
+	<Div class="topbar" data-spy="affix" data-offset-top="0">
+		<p>FREE SHIPPING ON ALL ORDER OVER 100 USD</p>
+	</Div>
+ <div class="container" style="width: 100%">
+  <div class="w3-bar w3-white w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">SHOP <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#" class="w3-bar-item w3-button">Denim</a>
+        <a href="#" class="w3-bar-item w3-button">Track pants</a>
+        <a href="#" class="w3-bar-item w3-button">Accessories</a>
+        <a href="#" class="w3-bar-item w3-button">Bottoms</a>
+        <a href="#" class="w3-bar-item w3-button">Tops</a>
+        <a href="#" class="w3-bar-item w3-button">Outerwear</a>
+        <a href="#" class="w3-bar-item w3-button">Headwear</a>
+        <a href="#" class="w3-bar-item w3-button">Footwear</a>
+        <a href="#" class="w3-bar-item w3-button">New Arrivals</a>
+        <a href="#" class="w3-bar-item w3-button">Back in stocks</a>
+        <a href="#" class="w3-bar-item w3-button">Comming soons</a>
+      </div>
+    </div>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hide-small">SHOP INSTAGRAM</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">SHOP</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">ABOUT</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">SHOP INSTAGRAM</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">CONTACT</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large><<i class="fab fa-facebook-square"></i></a>
+  </div>
+
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+     <div class="item active">
+      <div class="w3-display-middle w3-center">
+       <span class="w3-text-white" style="font-size:50px">m&nbsp;n&nbsp;m&nbsp;l</span>
+     </div>
+     <img src="C:\Users\MY PC\Downloads\New folder (2)\mnml-denim-3.jpg" alt="mnml denim-1" style="width:100%;height: auto;">
+   </div>
+
+   <div class="item">
+     <div class="w3-display-middle w3-center">
+       <span class="w3-text-white" style="font-size:50px">m&nbsp;n&nbsp;m&nbsp;l</span>
+     </div> 
+     <img src="C:\Users\MY PC\Downloads\New folder (2)\mnml-2017-spring-summer-collection-5.jpg" alt="mnml denim-2" style="width:100%;height:auto">
+   </div>
+
+   <div class="item">
+    <div class="w3-display-middle w3-center">
+     <span class="w3-text-white" style="font-size:50px">m&nbsp;n&nbsp;m&nbsp;l</span>
+   </div>
+   <img src="C:\Users\MY PC\Downloads\New folder (2)\IMG_7307.jpg" alt="mnml-denim-3" style="width:100%;height:auto;">
+ </div>
+</div>
+</div>
+</div>
+<bR>
+<br>
+<div class="container" style="text-align: center;">
+ <h3>HIGH QUALITY BASICS DEVELOPED IN LOS ANGELES.</h3>
+ <br>
+ <p>Progressive silhouettes and wardrobe staples sold at a fair price.</p>
+</div>
+<br>
+<br>
+<br>
+<div class="container" style="width: 100%">
+  <Div class="row">
+    <div class="col-md-2 hidden-sm hidden-xs">
+      <ul data-spy="affix" style="color: black;top:200px" data-offset-top="1000">
+        <li><a href="#denim">DENIM</a></li>
+        <li><a href="#tracks">TRACK PANTS</a></li>
+        <li><a href="#Accessories">ACCESSORIES</a></li>
+        <li><a href="###">BOTTOMS</a></li>
+        <li><a href="###">TOPS</a></li>
+        <li><a href="###">OUTERWEAR</a></li>
+        <li><a href="###">HEADWEAR</a></li>
+        <li><a href="###">FOOTWEAR</a></li>
+        <li><a href="###">NEW ARIVALS</a></li> 
+        <li><a href="###">BACK IN STOCK</a></li>
+        <li><a href="###">COMING SOON</a></li>  
+      </ul>
+    </div>  
+    <div class="col-md-10 col-sm-12 col-xs-12"">
+      <div class="container">
+        <div id="denim" class="container" style="width: 100%">
+          <h3>DENIM</h3>
+          <BR>
+          <BR>
+        </div>  
+        <div class="row">
+          <div class="col-md-3 col-xs-6 col-sm-6">
+            <a href="###"><img src="C:\Users\MY PC\Downloads\New folder (2)\denims\m1-bleached-denim-blue_338x.jpg" class="img-responsive" style="width: auto;height: auto"></img></a>
+            <BR>
+            <a href="##" style="text-align: center;"><h4>M1 DENIM<BR></h4><h5>BLUE<br><BR>$64.00 USD</h5></a>
+          </div>  
+          <div class="col-md-3 col-xs-6 col-sm-6">
+            <a href="###"><img src="C:\Users\MY PC\Downloads\New folder (2)\denims\m1-denim-black_338x.jpg" class="img-responsive" style="width: auto;height: auto"></img></a>
+            <BR>
+            <a href="##" style="text-align: center;"><h4>M1 DENIM<BR></h4><h5>BLACK<br><BR>$64.00 USD</h5></a>
+          </div>  
+          <div class="col-md-3 col-xs-6 col-sm-6">
+            <a href="###"><img src="C:\Users\MY PC\Downloads\New folder (2)\denims\m1-denim-blue_338x (1).jpg" class="img-responsive" style="width: auto;height: auto;"></img></a>
+            <BR>
+            <a href="##" style="text-align: center;"><h4>M1 DENIM<BR></h4><h5>BLUE<br><BR>$64.00 USD</h5></a>
+          </div>  
+          <div class="col-md-3 col-xs-6 col-sm-6">
+            <a href="###"><img src="C:\Users\MY PC\Downloads\New folder (2)\denims\m1-denim-dirty-blue_338x.jpg" class="img-responsive" style="width: auto;height: auto"></img></a>
+            <BR>
+            <a href="##" style="text-align: center;"><h4>M1 DENIM<BR></h4><h5>BLUE<br><BR>$64.00 USD</h5></a>
+          </div>  
+        </div>  
+        <br>
+        <br>
+        <div class="row">
+          <div class="col-md-3 col-xs-6 col-sm-6">
+            <a href="###"><img src="C:\Users\MY PC\Downloads\New folder (2)\denims\m1-denim-white_338x.jpg" class="img-responsive" style="width: auto;height: auto"></img></a>
+            <BR>
+            <a href="##" style="text-align: center;"><h4>M1 DENIM<BR></h4><h5>WHITE<br><BR>$64.00 USD</h5></a>
+          </div>  
+          <div class="col-md-3 col-xs-6 col-sm-6">
+            <a href="###"><img src="C:\Users\MY PC\Downloads\New folder (2)\denims\m1-repaired-denim-blue_338x.jpg" class="img-responsive" style="width: auto;height: auto"></img></a>
+            <BR>
+            <a href="##" style="text-align: center;"><h4>M1 REPAIRED DENIM<BR></h4><h5>BLUE<br><BR>$64.00 USD</h5></a>
+          </div>  
+          <div class="col-md-3 col-xs-6 col-sm-6">
+            <a href="###"><img src="C:\Users\MY PC\Downloads\New folder (2)\denims\m1-splash-denim-blue_338x.jpg" class="img-responsive" style="width: auto;height: auto;"></img></a>
+            <BR>
+            <a href="##" style="text-align: center;"><h4>M1 SPLASH DENIM<BR></h4><h5>BLUE<br><BR>$64.00 USD</h5></a>
+          </div>  
+          <div class="col-md-3 col-xs-6 col-sm-6">
+            <a href="###"><img src="C:\Users\MY PC\Downloads\New folder (2)\denims\m1-splash-ii-denim-blue_338x.jpg" class="img-responsive" style="width: auto;height: auto"></img></a>
+            <BR>
+            <a href="##" style="text-align: center;"><h4>M1 SPLASH DENIM<BR></h4><h5>BLUE<br><BR>$64.00 USD</h5></a>
+          </div>  
+        </div>  
+        <br>
+        <br>
+        <div class="row">
+          <div class="col-md-3 col-xs-6 col-sm-6">
+            <a href="###"><img src="C:\Users\MY PC\Downloads\New folder (2)\denims\m1-stretch-denim-black_338x.jpg" class="img-responsive" style="width: auto;height: auto"></img></a>
+            <BR>
+            <a href="##" style="text-align: center;"><h4>M1 STRETCH DENIM<BR></h4><h5>BLACK<br><BR>$64.00 USD</h5></a>
+          </div>  
+          <div class="col-md-3 col-xs-6 col-sm-6">
+            <a href="###"><img src="C:\Users\MY PC\Downloads\New folder (2)\denims\m1-stretch-denim-blue_338x.jpg" class="img-responsive" style="width: auto;height: auto"></img></a>
+            <BR>
+            <a href="##" style="text-align: center;"><h4>M1 STRETCH DENIM<BR></h4><h5>BLUE<br><BR>$64.00 USD</h5></a>
+          </div>  
+          <div class="col-md-3 col-xs-6 col-sm-6">
+            <a href="###"><img src="C:\Users\MY PC\Downloads\New folder (2)\denims\m1-stretch-denim-white_338x.jpg" class="img-responsive" style="width: auto;height: auto;"></img></a>
+            <BR>
+            <a href="##" style="text-align: center;"><h4>M1 STRETCH DENIM<BR></h4><h5>WHITE<br><BR>$64.00 USD</h5></a>
+          </div>  
+          <div class="col-md-3 col-xs-6 col-sm-6">
+            <a href="###"><img src="C:\Users\MY PC\Downloads\New folder (2)\denims\m1-vintage-denim-blue_338x.jpg" class="img-responsive" style="width: auto;height: auto"></img></a>
+            <BR>
+            <a href="##" style="text-align: center;"><h4>M1 VINTAGE DENIM<BR></h4><h5>DIRTY BLUE<br><BR>$64.00 USD</h5></a>
+          </div>  
+        </div>
+        <br>
+        <br>
+        <br>
+        <div id="tracks" class="container" style="width: 100%">
+          <h3>TRACK PANTS</h3>
+          <BR>
+          <BR>
+        </div>  
+        <div class="row">
+          <div class="col-md-3 col-xs-6 col-sm-6">
+            <a href="###"><img src="C:\Users\MY PC\Downloads\New folder (2)\TRACK PÁN\track-ii-jacket-black_338x.jpg" class="img-responsive" style="width: auto;height: auto"></img></a>
+            <BR>
+            <a href="##" style="text-align: center;"><h4>TRACK II JACKET<BR></h4><h5>BLACK<br><BR>$64.00 USD</h5></a>
+          </div>  
+          <div class="col-md-3 col-xs-6 col-sm-6">
+            <a href="###"><img src="C:\Users\MY PC\Downloads\New folder (2)\TRACK PÁN\track-ii-jacket-grey_338x.jpg" class="img-responsive" style="width: auto;height: auto"></img></a>
+            <BR>
+            <a href="##" style="text-align: center;"><h4>TRACK II JACKET<BR></h4><h5>GREY<br><BR>$64.00 USD</h5></a>
+          </div>  
+          <div class="col-md-3 col-xs-6 col-sm-6">
+            <a href="###"><img src="C:\Users\MY PC\Downloads\New folder (2)\TRACK PÁN\track-ii-pants-black_338x.jpg" class="img-responsive" style="width: auto;height: auto;"></img></a>
+            <BR>
+            <a href="##" style="text-align: center;"><h4>TRACK II PANTS<BR></h4><h5>BLACK<br><BR>$64.00 USD</h5></a>
+          </div>  
+          <div class="col-md-3 col-xs-6 col-sm-6">
+            <a href="###"><img src="C:\Users\MY PC\Downloads\New folder (2)\TRACK PÁN\track-ii-pants-grey_338x.jpg" class="img-responsive" style="width: auto;height: auto"></img></a>
+            <BR>
+            <a href="##" style="text-align: center;"><h4>TRACK II PANTS<BR></h4><h5>GREY<br><BR>$64.00 USD</h5></a>
+          </div>  
+        </div>  
+        <br>
+        <br>
+        <div class="row">
+          <div class="col-md-3 col-xs-6 col-sm-6">
+            <a href="###"><img src="C:\Users\MY PC\Downloads\New folder (2)\TRACK PÁN\track-pants-black_338x.jpg" class="img-responsive" style="width: auto;height: auto"></img></a>
+            <BR>
+            <a href="##" style="text-align: center;"><h4>TRACK PANTS<BR></h4><h5>BLACK<br><BR>$64.00 USD</h5></a>
+          </div>  
+          <div class="col-md-3 col-xs-6 col-sm-6">
+            <a href="###"><img src="C:\Users\MY PC\Downloads\New folder (2)\TRACK PÁN\track-pants-black_338x.jpg" class="img-responsive" style="width: auto;height: auto"></img></a>
+            <BR>
+            <a href="##" style="text-align: center;"><h4>TRACK PANTS<BR></h4><h5>BLACK<br><BR>$64.00 USD</h5></a>
+          </div>  
+          <div class="col-md-3 col-xs-6 col-sm-6">
+            <a href="###"><img src="C:\Users\MY PC\Downloads\New folder (2)\TRACK PÁN\track-pants-burgundy_338x.jpg" class="img-responsive" style="width: auto;height: auto;"></img></a>
+            <BR>
+            <a href="##" style="text-align: center;"><h4>TRACK PANT<BR></h4><h5>BURGUNDY<br><BR>$64.00 USD</h5></a>
+          </div>  
+          <div class="col-md-3 col-xs-6 col-sm-6">
+            <a href="###"><img src="C:\Users\MY PC\Downloads\New folder (2)\TRACK PÁN\track-pants-green_338x.jpg" class="img-responsive" style="width: auto;height: auto"></img></a>
+            <BR>
+            <a href="##" style="text-align: center;"><h4>TRACK PAINT<BR></h4><h5>GREEN<br><BR>$64.00 USD</h5></a>
+          </div>  
+        </div>  
+        <br>
+        <br>
+        <div class="row">
+          <div class="col-md-3 col-xs-6 col-sm-6">
+            <a href="###"><img src="C:\Users\MY PC\Downloads\New folder (2)\TRACK PÁN\track-pants-natural_338x.jpg" class="img-responsive" style="width: auto;height: auto"></img></a>
+            <BR>
+            <a href="##" style="text-align: center;"><h4>TRACK PANTS<BR></h4><h5>NATURAL<br><BR>$64.00 USD</h5></a>
+          </div>  
+          <div class="col-md-3 col-xs-6 col-sm-6">
+            <a href="###"><img src="C:\Users\MY PC\Downloads\New folder (2)\TRACK PÁN\track-pants-navy_338x.jpg" class="img-responsive" style="width: auto;height: auto"></img></a>
+            <BR>
+            <a href="##" style="text-align: center;"><h4>TRACK PANT<BR></h4><h5>NAVY<br><BR>$64.00 USD</h5></a>
+          </div>  
+          <div class="col-md-3 col-xs-6 col-sm-6">
+            <a href="###"><img src="C:\Users\MY PC\Downloads\New folder (2)\TRACK PÁN\track-pants-red_338x.jpg" class="img-responsive" style="width: auto;height: auto;"></img></a>
+            <BR>
+            <a href="##" style="text-align: center;"><h4>TRACK PANT<BR></h4><h5>RED<br><BR>$64.00 USD</h5></a>
+          </div>  
+          <div class="col-md-3 col-xs-6 col-sm-6">
+            <a href="###"><img src="C:\Users\MY PC\Downloads\New folder (2)\TRACK PÁN\track-pants-yellow_338x.jpg" class="img-responsive" style="width: auto;height: auto"></img></a>
+            <BR>
+            <a href="##" style="text-align: center;"><h4>TRACK PANT<BR></h4><h5>YELLOW<br><BR>$64.00 USD</h5></a>
+          </div>  
+        </div>   
+        <Br>
+        <br>
+        <br>
+        <div id="Accessories" class="container" style="width: 100%">
+          <h3>ACCESSORIES</h3>
+          <BR>
+          <BR>
+        </div>  
+        <div class="row">
+          <div class="col-md-3 col-xs-6 col-sm-6">
+            <a href="###"><img src="C:\Users\MY PC\Downloads\New folder (2)\accc\drawcord-belt-black_338x.jpg" class="img-responsive" style="width: auto;height: auto"></img></a>
+            <BR>
+            <a href="##" style="text-align: center;"><h4>DRAWCORD BELT<BR></h4><h5>BLACK<br><BR>$5.00 USD</h5></a>
+          </div>  
+          <div class="col-md-3 col-xs-6 col-sm-6">
+            <a href="###"><img src="C:\Users\MY PC\Downloads\New folder (2)\accc\drawcord-belt-natural_338x.jpg" class="img-responsive" style="width: auto;height: auto"></img></a>
+            <BR>
+            <a href="##" style="text-align: center;"><h4>DRAWCORD BELT<BR></h4><h5>NATURAL<br><BR>$5.00 USD</h5></a>
+          </div>  
+          <div class="col-md-3 col-xs-6 col-sm-6">
+            <a href="###"><img src="C:\Users\MY PC\Downloads\New folder (2)\accc\drawcord-belt-red_338x.jpg" class="img-responsive" style="width: auto;height: auto;"></img></a>
+            <BR>
+            <a href="##" style="text-align: center;"><h4>DRAWCORD BELT<BR></h4><h5>RED<br><BR>$5.00 USD</h5></a>
+          </div>  
+          <div class="col-md-3 col-xs-6 col-sm-6">
+            <a href="###"><img src="C:\Users\MY PC\Downloads\New folder (2)\accc\gift-card_338x.jpg" class="img-responsive" style="width: auto;height: auto"></img></a>
+            <BR>
+            <a href="##" style="text-align: center;"><h4>GIFT CARD<BR></h4><h5>GIFT CARD<br><BR>$25.00 USD</h5></a>
+          </div>  
+        </div>  
+                <Br>
+        <br>
+        <br>
+        <div id="Accessories" class="container" style="width: 100%">
+          <h3>ACCESSORIES</h3>
+          <BR>
+          <BR>
+        </div>  
+        <div class="row">
+          <div class="col-md-3 col-xs-6 col-sm-6">
+            <a href="###"><img src="C:\Users\MY PC\Downloads\New folder (2)\accc\drawcord-belt-black_338x.jpg" class="img-responsive" style="width: auto;height: auto"></img></a>
+            <BR>
+            <a href="##" style="text-align: center;"><h4>TRACK II JACKET<BR></h4><h5>BLACK<br><BR>$64.00 USD</h5></a>
+          </div>  
+          <div class="col-md-3 col-xs-6 col-sm-6">
+            <a href="###"><img src="C:\Users\MY PC\Downloads\New folder (2)\accc\drawcord-belt-natural_338x.jpg" class="img-responsive" style="width: auto;height: auto"></img></a>
+            <BR>
+            <a href="##" style="text-align: center;"><h4>TRACK II JACKET<BR></h4><h5>GREY<br><BR>$64.00 USD</h5></a>
+          </div>  
+          <div class="col-md-3 col-xs-6 col-sm-6">
+            <a href="###"><img src="C:\Users\MY PC\Downloads\New folder (2)\accc\drawcord-belt-red_338x.jpg" class="img-responsive" style="width: auto;height: auto;"></img></a>
+            <BR>
+            <a href="##" style="text-align: center;"><h4>TRACK II PANTS<BR></h4><h5>BLACK<br><BR>$64.00 USD</h5></a>
+          </div>  
+          <div class="col-md-3 col-xs-6 col-sm-6">
+            <a href="###"><img src="C:\Users\MY PC\Downloads\New folder (2)\accc\gift-card_338x.jpg" class="img-responsive" style="width: auto;height: auto"></img></a>
+            <BR>
+            <a href="##" style="text-align: center;"><h4>TRACK II PANTS<BR></h4><h5>GREY<br><BR>$64.00 USD</h5></a>
+          </div>  
+        </div>  
+      </div>
+  </Div>  
+
+
+  
+  <script>
+   function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+      x.className += " w3-show";
+    } else { 
+      x.className = x.className.replace(" w3-show", "");
+    }
+  }
+  var modal = document.getElementById('ticketModal');
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+</script>
+
+</BODY>
+</HTML>
+
